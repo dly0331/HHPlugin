@@ -1,0 +1,6 @@
+#op用户
+op:
+  - 1a2b3c4d-5678-90ab-cdef-1234567890ab
+#vip用户
+vip:
+  - 1b2c3d4e-5678-90ab-cdef-1234567890ab

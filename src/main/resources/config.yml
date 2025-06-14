@@ -1,0 +1,20 @@
+#消息字样，支持minimessage
+text: "<gold>【%server%】</gold> <white>%player%</white>：<aqua>%message%</aqua>"
+#按钮字样
+jointext: "<green>[点击加入]</green>"
+#冷却消息
+coolmsg: "<red>还需等待 %time% 秒才能使用！</red>"
+#错误消息
+errmsg: "<red>格式不正确，请输入/hh 消息内容！</red>"
+#冷却时间，不用冷却请设置为0
+cd: 15
+#是否开启Vip
+vip: false
+vipcd: 5
+#op冷却
+opcd: 0
+#命令别名
+aliases:
+  - hh
+  - shout
+  - 广播
