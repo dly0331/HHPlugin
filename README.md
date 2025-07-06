@@ -16,7 +16,7 @@
 
 * 可自定义的消息字段（minimessage支持）
 
-* 命令别名（维修中）
+* 命令别名
 
 ### 插件适配
 
@@ -24,9 +24,9 @@
 
 ### 下一步计划
 
-* 重构史山
+* 1.4重构
 
-* 将字段和配置分开
+* 分离字段、配置等
 
 * 完成BC代理端版本
 
@@ -60,5 +60,3 @@ aliases:
 * 提交[Issue](https://github.com/dly0331/hhplugin/issues)（修不修是另外一回事）
 
 * [拉取版本](https://github.com/dly0331/hhplugin/pulls)
-
-另：最开始只有/hh发出简单喊话的功能，Deepseek写太史了，又是报错，所以后面config之类的自己写了，写的不好别喷。

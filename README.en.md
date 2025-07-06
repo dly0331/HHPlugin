@@ -16,7 +16,7 @@ A Minecraft Velocity Plugin which allows you to shout message to all players in 
 
 * Customizable message fields. (with MiniMessage support)
 
-* Configurable command aliases. (fixing)
+* Configurable command aliases.
 
 ### Compatibility
 

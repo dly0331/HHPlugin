@@ -18,7 +18,7 @@ import java.nio.file.Path;
 @Plugin(
     id = "hhplugin",
     name = "HH Plugin",
-    version = "1.3",
+    version = "1.3.1",
     authors = {"Dicksuck","QQCoin"}
 )
 public class HhPlugin {

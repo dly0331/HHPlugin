@@ -8,6 +8,7 @@ import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Config {
     private final ConfigurationNode root;
@@ -29,6 +30,9 @@ public class Config {
     public int opcd() { return root.node("opcd").getInt(); }
     public int vipcd() { return root.node("vipcd").getInt(); }
     public boolean vipmode() { return root.node("vip").getBoolean(); }
-    public List<String> aliases() {return List.of("hh");
+    public List<String> aliases() {
+        return root.node("aliases").childrenList().stream()
+            .map(n -> n.getString())
+            .collect(Collectors.toList());
     }
 }
