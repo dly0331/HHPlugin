@@ -2,6 +2,8 @@
 
 [[English]](README.en.md)|[中文]
 
+![喊话界面](https://github.com/user-attachments/assets/7a866dcf-329c-4390-a45a-b501dc2fcea2)
+
 一个支持你在Velocity群组服中喊话让所有玩家看到的插件，本项目借助Deepseek辅助编辑。
 
 ### 插件功能
